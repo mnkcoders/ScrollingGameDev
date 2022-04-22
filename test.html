@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type="text/javascript">
+            
+            function Game_Scene(){
+                
+                var _scene = {
+                    'layers':[]
+                };
+                /**
+                 * 
+                 * @returns {Game_Scene}
+                 */
+                this.addLayer = function ( layer ){
+                    _scene.layers.push( layer );
+                    return this;
+                };
+                /**
+                 * @returns {Array}
+                 */
+                this.layers = function(){
+                    return _scene.layers;
+                };
+            }
+            
+            Game_Scene.prototype.count = function(){
+                return this.layers().length;
+            };
+            
+            
+            console.log( (new Game_Scene()).addLayer('test').addLayer('dust').count());
+            
+            
+        </script>
+    </body>
+</html>
