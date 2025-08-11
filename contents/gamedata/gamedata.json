@@ -1,0 +1,28 @@
+{
+    "images":[
+        {"name":"frog-1.png"},
+        {"name":"gate-1.png"},
+        {}
+    ],
+    "spritesets":[
+        {"name":"frog","image":"frog-1.png"}
+    ],
+    "sprites":[
+        {"name":"froggy","spriteset":"frog"}
+    ],
+    "audio":[
+        {"name":"croack_01.wav"},
+        {"name":"croack_02.wav"},
+        {"name":"croack_03.wav"},
+        {"name":"croack_04.wav"},
+        {"name":"croack_05.wav"},
+        {"name":"croack_06.wav"},
+        {"name":"completed_1.wav"}
+    ],
+    "maps":[
+        {"name":"testmap",
+        "layers":[
+            {"name":"layer1","tileset":"tileset1","tiles":[0,0,0,0,0,0]}
+        ]}
+    ]
+}
