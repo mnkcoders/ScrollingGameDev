@@ -1,13 +1,13 @@
 {
-    "images":[
+    "image":[
         {"name":"frog-1.png"},
         {"name":"gate-1.png"},
         {}
     ],
-    "spritesets":[
+    "spriteset":[
         {"name":"frog","image":"frog-1.png"}
     ],
-    "sprites":[
+    "sprite":[
         {"name":"froggy","spriteset":"frog"}
     ],
     "audio":[
@@ -19,7 +19,7 @@
         {"name":"croack_06.wav"},
         {"name":"completed_1.wav"}
     ],
-    "maps":[
+    "map":[
         {"name":"testmap",
         "layers":[
             {"name":"layer1","tileset":"tileset1","tiles":[0,0,0,0,0,0]}
